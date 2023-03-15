@@ -1,0 +1,52 @@
+
+.widget-border {
+    margin-bottom: 2em;
+
+
+}
+
+.widget-about {
+    border:20px solid #efefef;
+    margin-bottom: 2em;
+    padding:1em;
+    color:black ;
+
+    
+}
+
+.widget-recent-posts {
+    border:20px solid #efefef;
+    padding:1em;
+
+}
+
+.widget-title {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.widget-recent-posts {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-blog {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #616161;
+    margin-bottom: 1rem;
+}
+
+.widget-blog:last-child {
+    border: none;
+    margin: 0;
+}
+
+.widget-image {
+    order:1;
+}
+.widget-blog-heading {
+    order:2;
+}
